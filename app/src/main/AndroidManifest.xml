@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rkitsoftware.hostel">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Hostel">
+        <activity android:name=".Dashboard.StudentProfile"></activity>
+        <activity android:name=".Dashboard.FacultyDashboardItem.EditRoomField.EditRoomItemClick" />
+        <activity android:name=".Dashboard.FacultyDashboardItem.SearchStudentField.SearchStudentItemClick" />
+        <activity android:name=".Dashboard.FacultyDashboardItem.ViewRequestField.ViewrequestItemClick" />
+        <activity android:name=".Dashboard.FacultyDashboardItem.AddRemoveRoom" />
+        <activity android:name=".Dashboard.FacultyDashboardItem.EditRoomField.EditRooms" />
+        <activity android:name=".Dashboard.FacultyDashboardItem.FeesNotification" />
+        <activity android:name=".Dashboard.FacultyDashboardItem.SearchStudentField.SearchStudent" />
+        <activity android:name=".Dashboard.FacultyDashboardItem.RoomAllocation" />
+        <activity android:name=".Dashboard.FacultyDashboardItem.ViewRequestField.ViewRequest" />
+        <activity android:name=".Dashboard.FacultyDashboard" />
+        <activity android:name=".Dashboard.StudentDashboard" />
+        <activity android:name=".ForgetPasswordActivity.SuccessForgetPassword" />
+        <activity android:name=".ForgetPasswordActivity.ForgetPassword" />
+        <activity android:name=".SigninActivity.FacultySignIn" />
+        <activity android:name=".SignupActivity.SignUpSuccess" />
+        <activity android:name=".SignupActivity.SignUp" />
+        <activity android:name=".SigninActivity.SignIn" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity"></activity>
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

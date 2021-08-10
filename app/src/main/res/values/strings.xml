@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Hostel</string>
+
+<!--    Login string-->
+    <string name="email">E-mail</string>
+    <string name="Password">Password</string>
+    <string name="signin">SIGN IN</string>
+    <string name="yourtext">Your first Time?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="LoginasFaculty">Login as faculty?</string>
+    <string name="Clickhere">Click here</string>
+    <string name="ForgotPass">Forgot Password</string>
+
+<!--    SignUp string-->
+    <string name="Name">Name</string>
+    <string name="Enroll">Enrollment</string>
+    <string name="branch">Branch</string>
+    <string name="Category">Category</string>
+    <string name="mobileno">Mobile No.</string>
+    <string name="AcpcRank">ACPC Rank</string>
+    <string name="submit">SUBMIT</string>
+    <string name="havemeetbefore">Have we met before?</string>
+    <string name="sign_in">Sign In</string>
+
+<!--   SignUpSuccess string -->
+    <string name="Success">Success</string>
+    <string name="back">BACK</string>
+    <string name="mainmessg">Your application has been  submitted successfully, sit  tight and keep an eye on  your mailbox for further  instructions.</string>
+
+<!--    FacultyLogin string -->
+    <string name="faculty">Faculty</string>
+    <string name="LoginasStudent">Login as student?</string>
+    
+<!--    Forgot Password string-->
+    <string name="forgot">Forgot</string>
+    <string name="frgtpass">Password</string>
+
+<!--    Success Forgot Password string-->
+    <string name="mainmessfrgtpass">We have mailed you your password on your registered email ID.</string>
+
+<!-- Student dashboard string-->
+    <string name="hellostnd">Hello, Student</string>
+    <string name="Logout">Log out</string>
+    <string name="roomno">Room No.</string>
+    <string name="Updateprofile">Update Profile</string>
+
+<!--    Student Profile string-->
+    <string name="profile">Profile</string>
+    <string name="update">Update</string>
+
+<!--    Faculty dashboard-->
+    <string name="hellofaculty">Hello,Faculty</string>
+    <string name="viewrequest">View Request</string>
+    <string name="Roomallocation">Room Allocation</string>
+    <string name="search">Search Student</string>
+    <string name="feesnotify">Fees Notification</string>
+    <string name="editroom">Edit Rooms</string>
+    <string name="addroom">Add/Remove Room</string>
+
+<!--   View Request Item Click string-->
+    <string name="request">Request</string>
+    <string name="approve">APPROVE</string>
+    <string name="discard">DISCARD</string>
+    
+<!--    Search Student Item Click-->
+    <string name="remove">Remove</string>
+    
+<!--    fees notification-->
+    <string name="stringFeeNotification">Type e-mail notification message here..!!</string>
+    <string name="send">Send</string>
+
+<!--    View Room-->
+    <string name="totalroom">Total Rooms : 120</string>
+
+<!--    Add/remove Room-->
+    <string name="addRoom">Add Room</string>
+    <string name="emptyRoom">Empty Room : 20</string>
+
+
+</resources>

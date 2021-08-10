@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard.FacultyDashboardItem.EditRoomField.EditRoomItemClick"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/backarroweditRoom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:src="@drawable/backarrow"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hellofaculty"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/raleway"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentLeft="true"/>
+
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/txt_logoutviewRequestitemclick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Logout"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/raleway"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:layout_alignParentRight="true" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/roomno"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:textSize="50sp"
+                android:fontFamily="@font/raleway"
+                android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/student1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/buttonbackground"
+                android:text="Student-1"
+                android:textSize="12sp"
+                android:textColor="@color/btntxt"
+                android:layout_margin="20dp"/>
+
+            <Button
+                android:id="@+id/student2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/buttonbackground"
+                style=""
+                android:text="Student-2"
+                android:textSize="12sp"
+                android:textColor="@color/btntxt"
+                android:layout_margin="20dp"/>
+
+            <Button
+                android:id="@+id/student3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/buttonbackground"
+                android:text="Student-3"
+                android:textSize="12sp"
+                android:textColor="@color/btntxt"
+                android:layout_margin="20dp"/>
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
