@@ -186,7 +186,7 @@
                     android:layout_gravity="right" />
 
                 <TextView
-                    android:id="@+id/txt_loginfacultysignup"
+                    android:id="@+id/txt_loginfacultysignin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/Clickhere"
