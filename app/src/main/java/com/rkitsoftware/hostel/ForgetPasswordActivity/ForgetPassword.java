@@ -6,12 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 import com.rkitsoftware.hostel.R;
 
 public class ForgetPassword extends AppCompatActivity {
 
     Button submit;
+    EditText et_email;
+    String email;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,10 +22,12 @@ public class ForgetPassword extends AppCompatActivity {
         setContentView(R.layout.activity_forget_password);
 
         initView();
+        et_email = findViewById(R.id.edttxt_email);
 
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                email = et_email.getText().toString();
                 Intent i = new Intent(ForgetPassword.this, SuccessForgetPassword.class);
                 startActivity(i);
             }
