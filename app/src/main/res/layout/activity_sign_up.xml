@@ -161,9 +161,8 @@
                     android:textStyle="bold"
                     android:fontFamily="@font/raleway"
                     android:layout_marginRight="15dp"
-                    android:layout_gravity="right"
-                    />
-                android:id="@+id/textView"android:id="@+id/textView"android:id="@+id/textView"android:id="@+id/textView"
+                    android:layout_gravity="right" />
+
             </LinearLayout>
 
 
