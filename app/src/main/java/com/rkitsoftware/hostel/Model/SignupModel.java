@@ -2,29 +2,29 @@ package com.rkitsoftware.hostel.Model;
 
 public class SignupModel {
 
-    private String acpcRank;
+    public String acpcRank;
 
-    private String branch;
+    public String branch;
 
-    private String category;
+    public String category;
 
-    private String city;
+    public String city;
 
-    private String document;
+    public String document;
 
-    private String email;
+    public String email;
 
-    private Long enrollNo;
+    public Long enrollNo;
 
-    private String isApproved;
+    public String isApproved;
 
-    private String mobileNo;
+    public String mobileNo;
 
     public SignupModel(){
 
     }
 
-    public SignupModel(String acpcRank, String branch, String category, String city, String document, String email, Long enrollNo, String isApproved, String mobileNo, String name) {
+public SignupModel(String acpcRank, String branch, String category, String city, String document, String email, Long enrollNo, String isApproved, String mobileNo, String name) {
         this.acpcRank = acpcRank;
         this.branch = branch;
         this.category = category;
@@ -37,7 +37,7 @@ public class SignupModel {
         this.name = name;
     }
 
-    private String name;
+    public String name;
 
     public String getAcpcRank() {
         return acpcRank;
